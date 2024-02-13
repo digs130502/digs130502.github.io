@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<!-- css files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+	<meta name="author" content="Hassan Ali">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="nav container void-background">
+			<!-- This "nav-menu" is hidden on mobile -->
+
+			<div class="nav-right nav-menu">
+				<a class="nav-item" href="#about">About</a>
+				<a class="nav-item" href="#resume">Resume</a>
+				<a class="nav-item" href="#projects">Projects</a>
+				<a class="nav-item" href="#social">Social</a>
+			</div>
+
+			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+			<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+			<span class="nav-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</nav>
+				
+		<!-- About Me -->
+		<section id="about" class="section section-1">
+			<div class="container has-text-centered">
+				<img class="avatar" src="assets/img/diego.JPG">
+			</div>
+			<div class="container has-text-centered"></br>
+				<p class="intro">
+					My name is Diego Garcia, and I am a junior Computer Science major aspiring to be a Software Engineer!
+				</p>
+			</div>
+		</section>
+
+		<!-- Resume -->
+		<section id="resume" class="section section-2">
+			<div class="container has-text-centered">
+				<h3 class="title is-3">Resume</h3>
+			</div>
+			<div class="container has-text-centered">
+				<a href="/assets/img/DiegoGarcia.png" download="DiegoGarcia.png">
+					<img class="resume" src="assets/img/DiegoGarcia.png" display="block"  height="600px" width="600px">
+				</a>
+			</div>
+		</section>
+		
+		<!-- Projects -->
+		<section  id="projects" class="section section-3">
+			<div class="container">
+				<div class="has-text-centered">
+					<h3 class="title is-3">Projects</h3>
+				</div>
+				
+				<div class="columns is-multiline is-desktop">
+					<!-- Project 1 -->
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<a target="_blank" href="https://github.com/digs130502/todoList">
+											<img src="assets/img/To-do-list.png" alt="Image">
+										</a>
+									</figure>
+								</div>
+								<div>			
+									<p>
+										First React Native application. Learned JavaScript and applied React Native libraries using the Expo tool. Created reusable components, passing props to custom components, and styling react native components.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+					<!-- Project 2 -->
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<img src="assets/img/project-2.jpg" alt="Image">
+									</figure>
+								</div>
+								<div>			
+									<p>
+										Bless up. Another one. How’s business? Boomin. Don’t ever play yourself. Life is what you make it, so let’s make it.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Social -->
+		<section id="social" class="section section-4">
+			<div class="container">
+				<div class="has-text-centered">					
+					<h3 class="title is-3">Contact Me!</h3>
+				</div>
+				<div class="social-container columns">
+					<div class="column is-6 has-text-centered">
+						<a target="_blank" href="https://www.linkedin.com/in/diego-garcia13?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BLwwFwMpxRBq44a7QItSgaQ%3D%3D"><img class="" src="assets/img/linkedin.png"></a>
+					</div>
+					<div class="column is-6 has-text-centered">
+						<a target="_blank" href="https://github.com/digs130502"><img class="" src="assets/img/github.png"></a>
+					</div>
+				</div>
+			</div>
+		</section>	
+		
+		<!-- Scripts  -->
+		<script src="controller.js"></script>		
+	</body>	
+</html>
